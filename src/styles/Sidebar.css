@@ -1,0 +1,29 @@
+.sidebar-container {
+  width: 250px;
+  height: 100vh;
+  background-color: #121212;
+  padding: 20px;
+  color: white;
+}
+
+.logo {
+  color: #1DB954;
+  margin-bottom: 30px;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  color: #b3b3b3;
+  text-decoration: none;
+  padding: 10px 0;
+  transition: color 0.3s ease;
+}
+
+.nav-item:hover {
+  color: white;
+}
+
+.nav-item svg {
+  margin-right: 10px;
+} 

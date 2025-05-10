@@ -1,0 +1,21 @@
+# Core React dependencies
+react
+react-dom
+react-router-dom
+
+# Icons
+react-icons
+
+# Styling (if used)
+@emotion/styled
+
+# (Optional) For development
+@vitejs/plugin-react
+vite
+
+# (Optional) For state management, if used
+# redux
+# @reduxjs/toolkit
+
+# (Optional) For file uploads, if you add them
+# axios 

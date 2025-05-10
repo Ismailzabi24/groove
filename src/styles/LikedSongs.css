@@ -1,0 +1,81 @@
+.liked-songs-container {
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.heart-icon {
+  color: #1DB954;
+  font-size: 40px;
+  margin-right: 20px;
+}
+
+.title {
+  color: white;
+  font-size: 32px;
+}
+
+.song-list {
+  background-color: #181818;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.song-item {
+  display: flex;
+  align-items: center;
+  padding: 12px 20px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.song-item:hover {
+  background-color: #282828;
+}
+
+.song-number {
+  width: 30px;
+  color: #b3b3b3;
+}
+
+.song-info {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.song-title {
+  color: white;
+  margin-bottom: 4px;
+}
+
+.song-artist {
+  color: #b3b3b3;
+  font-size: 14px;
+}
+
+.song-duration {
+  color: #b3b3b3;
+  margin: 0 20px;
+}
+
+.play-button {
+  background: none;
+  border: none;
+  color: #b3b3b3;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.play-button:hover {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.1);
+} 
